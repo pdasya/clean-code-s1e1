@@ -88,7 +88,7 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-row-wrapper {
   display: flex;
@@ -230,7 +230,7 @@ li > label {
 .main__delete_image:hover {
 =======
 li >    input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 button.delete img {
   height: 2em;
@@ -249,8 +249,12 @@ button.delete img:hover {
 
 =======
 ul#completed-tasks label {
+<<<<<<< HEAD
   text-decoration: line-through
 >>>>>>> 4898536 (refactor: update identification according to 1.1 requirement)
+=======
+  text-decoration: line-through;
+>>>>>>> b8895f1 (refactor: add semocolons after all properties according to 3.7 requirement)
   color: #888;
 }
 
@@ -270,7 +274,7 @@ ul#completed-tasks label {
 }
 =======
 ul li input[type=text] {
-  display: none
+  display: none;
 }
 
 ul li.editMode input[type=text] {
