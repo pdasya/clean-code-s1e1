@@ -94,14 +94,14 @@ body {
   display: flex;
 }
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 input,button{
-  outline:none;
+  outline: none;
 }
 button {
   background: none;
@@ -270,15 +270,20 @@ ul#completed-tasks label {
 }
 =======
 ul li input[type=text] {
-  display:none
+  display: none
 }
 
 ul li.editMode input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 ul li.editMode label {
+<<<<<<< HEAD
   display:none;
 }
 >>>>>>> 4898536 (refactor: update identification according to 1.1 requirement)
+=======
+  display: none;
+}
+>>>>>>> 3f5ac29 (refactor: add space after property name in CSS according to 3.6 requirement)
