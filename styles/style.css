@@ -117,8 +117,12 @@ button:hover {
 }
 /* Heading */
 h3,
+<<<<<<< HEAD
 label[for='new-task'] {
 >>>>>>> 4898536 (refactor: update identification according to 1.1 requirement)
+=======
+label[for="new-task"] {
+>>>>>>> b2a0fa4 (refactor: replace single quotes by double quotes in HTML and CSS according to 1.3 requirement)
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -153,6 +157,7 @@ input[type="text"]:focus {
 
 /* New Task */
 <<<<<<< HEAD
+<<<<<<< HEAD
 .main__header_add {
   display: block;
   margin: 0 0 20px;
@@ -163,6 +168,9 @@ input[type="text"]:focus {
 .main__add_wrapper .main__task {
 =======
 label[for='new-task'] {
+=======
+label[for="new-task"] {
+>>>>>>> b2a0fa4 (refactor: replace single quotes by double quotes in HTML and CSS according to 1.3 requirement)
   display: block;
   margin: 0 0 20px;
 }
