@@ -8,6 +8,7 @@
 // Event handling, user interaction is what starts the code execution.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var taskInput = document.getElementById("main__add_newtask"); //Add a new task.
 var addButton = document.getElementsByTagName("button")[0]; //first button
 var incompleteTaskHolder = document.getElementById("main__add_list"); //ul of #incompleteTasks
@@ -18,6 +19,12 @@ var addButton = document.getElementsByTagName("button")[0]; //first button
 var incompleteTaskHolder = document.getElementById("incompleteTasks"); //ul of #incompleteTasks
 var completedTasksHolder = document.getElementById("completed-tasks"); //completed-tasks
 >>>>>>> d42b499 (refactor: add html formatting according to 2.1 requirement)
+=======
+var taskInput = document.getElementById("main__add_newtask"); //Add a new task.
+var addButton = document.getElementsByTagName("button")[0]; //first button
+var incompleteTaskHolder = document.getElementById("main__add_list"); //ul of #incompleteTasks
+var completedTasksHolder = document.getElementById("main__completed_list"); //completed-tasks
+>>>>>>> 8a8f0e5 (refactor: add meaningfil naming of identifiers and classes accoridng to 3.2 requitement)
 
 //New task list item
 var createNewTaskElement = function (taskString) {
@@ -37,6 +44,7 @@ var createNewTaskElement = function (taskString) {
   var deleteButtonImg = document.createElement("img"); //delete button image
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   listItem.className = "main__list-item";
   
   label.innerText = taskString;
@@ -55,20 +63,31 @@ var createNewTaskElement = function (taskString) {
   deleteButtonImg.src = "assets/remove.svg";
   deleteButtonImg.className = "main__delete_image";
 =======
+=======
+  listItem.className = "main__list-item";
+  
+>>>>>>> 8a8f0e5 (refactor: add meaningfil naming of identifiers and classes accoridng to 3.2 requitement)
   label.innerText = taskString;
-  label.className = "task";
+  label.className = "main__task main__task_label";
 
   //Each elements, needs appending
   checkBox.type = "checkbox";
+  checkBox.className = "main__task_checkbox";
   editInput.type = "text";
-  editInput.className = "task";
+  editInput.className = "main__task main__task_text";
 
   editButton.innerText = "Edit"; //innerText encodes special characters, HTML does not.
-  editButton.className = "edit";
+  editButton.className = "main__edit main__button";
 
+<<<<<<< HEAD
   deleteButton.className = "delete";
   deleteButtonImg.src = "./remove.svg";
 >>>>>>> d42b499 (refactor: add html formatting according to 2.1 requirement)
+=======
+  deleteButton.className = "main__delete main__button";
+  deleteButtonImg.src = "assets/remove.svg";
+  deleteButtonImg.className = "main__delete_image";
+>>>>>>> 8a8f0e5 (refactor: add meaningfil naming of identifiers and classes accoridng to 3.2 requitement)
   deleteButton.appendChild(deleteButtonImg);
 
   //and appending.
@@ -102,16 +121,22 @@ var editTask = function () {
   var listItem = this.parentNode;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a8f0e5 (refactor: add meaningfil naming of identifiers and classes accoridng to 3.2 requitement)
   var editInput = listItem.querySelector(".main__task_text");
   var label = listItem.querySelector(".main__task_label");
   var editBtn = listItem.querySelector(".main__edit");
   var containsClass = listItem.classList.contains("main__edit_mode");
+<<<<<<< HEAD
 =======
   var editInput = listItem.querySelector("input[type=text]");
   var label = listItem.querySelector("label");
   var editBtn = listItem.querySelector(".edit");
   var containsClass = listItem.classList.contains("editMode");
 >>>>>>> d42b499 (refactor: add html formatting according to 2.1 requirement)
+=======
+>>>>>>> 8a8f0e5 (refactor: add meaningfil naming of identifiers and classes accoridng to 3.2 requitement)
   //If class of the parent is .editmode
   if (containsClass) {
     //switch to .editmode
@@ -125,10 +150,14 @@ var editTask = function () {
 
   //toggle .editmode on the parent.
 <<<<<<< HEAD
+<<<<<<< HEAD
   listItem.classList.toggle("main__edit_mode");
 =======
   listItem.classList.toggle("editMode");
 >>>>>>> d42b499 (refactor: add html formatting according to 2.1 requirement)
+=======
+  listItem.classList.toggle("main__edit_mode");
+>>>>>>> 8a8f0e5 (refactor: add meaningfil naming of identifiers and classes accoridng to 3.2 requitement)
 };
 
 //Delete task.
@@ -177,12 +206,17 @@ var bindTaskEvents = function (taskListItem, checkBoxEventHandler) {
   //select ListItems children
   var checkBox = taskListItem.querySelector("input[type=checkbox]");
 <<<<<<< HEAD
+<<<<<<< HEAD
   var editButton = taskListItem.querySelector("button.main__edit");
   var deleteButton = taskListItem.querySelector("button.main__delete");
 =======
   var editButton = taskListItem.querySelector("button.edit");
   var deleteButton = taskListItem.querySelector("button.delete");
 >>>>>>> d42b499 (refactor: add html formatting according to 2.1 requirement)
+=======
+  var editButton = taskListItem.querySelector("button.main__edit");
+  var deleteButton = taskListItem.querySelector("button.main__delete");
+>>>>>>> 8a8f0e5 (refactor: add meaningfil naming of identifiers and classes accoridng to 3.2 requitement)
 
   //Bind editTask to edit button.
   editButton.onclick = editTask;
