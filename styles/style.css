@@ -106,10 +106,12 @@ body {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+.main__list-item {
   list-style: none;
 }
-input,button{
+.main__button,
+.main__task_checkbox, 
+.main__task{
   outline: none;
 }
 .main__button {
