@@ -126,6 +126,7 @@ body {
 }
 .main__delete_image {
   height: 2em;
+  
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
@@ -136,6 +137,7 @@ body {
 /* Completed */
 .main__completed_list .main__task_label {
   text-decoration: line-through;
+
   color: #888;
 }
 
