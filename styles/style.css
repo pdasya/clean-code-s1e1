@@ -4,22 +4,14 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 .menu {
-=======
-.aaa {
->>>>>>> 4898536 (refactor: update identification according to 1.1 requirement)
-=======
-.menu {
->>>>>>> 8a8f0e5 (refactor: add meaningfil naming of identifiers and classes accoridng to 3.2 requitement)
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 .menu__image {
   width: 100%;
 }
@@ -28,62 +20,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  .menu { 
-    text-align: center;
-  }
-}
-.main {
-  display: block;
-  width: 500px;
-  margin: 0 auto 0;
-}
-.main__task {
-  width: 56%;
-  display: inline-block;
-  flex-grow: 1;
-}
-.main__add_wrapper{
-  display: flex;
-}
-.main__completed_list, 
-.main__add_list {
-  margin: 0;
-  padding: 0px;
-}
-.main__list-item {
-  list-style: none;
-}
-.main__button,
-.main__task_checkbox, 
-.main__task{
-  outline: none;
-}
-.main__button {
-  background: none;
-  border: 0px;
-  color: #888;
-  font-size: 15px;
-  width: 60px;
-  font-family: Lato, sans-serif;
-  cursor: pointer;
-}
-.main__button:hover {
-  color: #3a3A3a;
-}
-/* Heading */
-.main__header {
-=======
-.aaa img {
-=======
-.menu__image {
->>>>>>> 8a8f0e5 (refactor: add meaningfil naming of identifiers and classes accoridng to 3.2 requitement)
-  width: 100%;
-}
-.menu__info {
-  font-family: fantasy, cursive;
-}
-
-@media (max-width:768px) {
   .menu { 
     text-align: center;
   }
@@ -124,20 +60,10 @@ body {
   cursor: pointer;
 }
 .main__button:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 /* Heading */
-<<<<<<< HEAD
-h3,
-<<<<<<< HEAD
-label[for='new-task'] {
->>>>>>> 4898536 (refactor: update identification according to 1.1 requirement)
-=======
-label[for="new-task"] {
->>>>>>> b2a0fa4 (refactor: replace single quotes by double quotes in HTML and CSS according to 1.3 requirement)
-=======
 .main__header {
->>>>>>> 8a8f0e5 (refactor: add meaningfil naming of identifiers and classes accoridng to 3.2 requitement)
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -146,15 +72,7 @@ label[for="new-task"] {
   margin: 0;
   text-transform: uppercase;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 .main__task_text {
-=======
-input[type="text"] {
->>>>>>> 4898536 (refactor: update identification according to 1.1 requirement)
-=======
-.main__task_text {
->>>>>>> 8a8f0e5 (refactor: add meaningfil naming of identifiers and classes accoridng to 3.2 requitement)
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -166,63 +84,18 @@ input[type="text"] {
   font-family: Lato, sans-serif;
   color: #888;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 .main__task_text:focus {
-=======
-input[type="text"]:focus {
->>>>>>> 4898536 (refactor: update identification according to 1.1 requirement)
-=======
-.main__task_text:focus {
->>>>>>> 8a8f0e5 (refactor: add meaningfil naming of identifiers and classes accoridng to 3.2 requitement)
   color: #333;
 }
-
 /* New Task */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 .main__header_add {
   display: block;
   margin: 0 0 20px;
 }
-
-/* ИСПРАВИТЬ */
-
 .main__add_wrapper .main__task {
-=======
-label[for='new-task'] {
-=======
-label[for="new-task"] {
->>>>>>> b2a0fa4 (refactor: replace single quotes by double quotes in HTML and CSS according to 1.3 requirement)
-  display: block;
-  margin: 0 0 20px;
-}
-input#new-task {
->>>>>>> 4898536 (refactor: update identification according to 1.1 requirement)
-=======
-.main__header_add {
-  display: block;
-  margin: 0 0 20px;
-}
-
-/* ИСПРАВИТЬ */
-
-.main__add_wrapper .main__task {
->>>>>>> 8a8f0e5 (refactor: add meaningfil naming of identifiers and classes accoridng to 3.2 requitement)
   width: 318px;
 }
-
-/* Task list */
-<<<<<<< HEAD
-<<<<<<< HEAD
 .main__list-item {
-=======
-li {
->>>>>>> 4898536 (refactor: update identification according to 1.1 requirement)
-=======
-.main__list-item {
->>>>>>> 8a8f0e5 (refactor: add meaningfil naming of identifiers and classes accoridng to 3.2 requitement)
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -231,40 +104,18 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 .main__list-item > * {
   vertical-align: middle;
 }
-
 .main__task_checkbox {
   margin: 0 10px;
 }
 .main__task_label {
-=======
-li > * {
-=======
-.main__list-item > * {
->>>>>>> 8a8f0e5 (refactor: add meaningfil naming of identifiers and classes accoridng to 3.2 requitement)
-  vertical-align: middle;
-}
-
-.main__task_checkbox {
-  margin: 0 10px;
-}
-<<<<<<< HEAD
-li > label {
->>>>>>> 4898536 (refactor: update identification according to 1.1 requirement)
-=======
-.main__task_label {
->>>>>>> 8a8f0e5 (refactor: add meaningfil naming of identifiers and classes accoridng to 3.2 requitement)
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 .main__list-item > .main__task_text {
   width: 226px;
 }
@@ -275,86 +126,19 @@ li > label {
   transition: transform 200ms ease-in;
 }
 .main__delete_image:hover {
-=======
-li >    input[type="text"] {
-=======
-.main__list-item > .main__task_text {
->>>>>>> 8a8f0e5 (refactor: add meaningfil naming of identifiers and classes accoridng to 3.2 requitement)
-  width: 226px;
-}
-.main__delete_image {
-  height: 2em;
-  transform: rotateZ(45deg);
-  transition: transform 200ms ease-in;
-}
-<<<<<<< HEAD
-button.delete img:hover {
->>>>>>> 4898536 (refactor: update identification according to 1.1 requirement)
-=======
-.main__delete_image:hover {
->>>>>>> 8a8f0e5 (refactor: add meaningfil naming of identifiers and classes accoridng to 3.2 requitement)
   transform: rotateZ(0);
 }
-
-/* Completed */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8a8f0e5 (refactor: add meaningfil naming of identifiers and classes accoridng to 3.2 requitement)
 .main__completed_list .main__task_label {
   text-decoration: line-through;
-
-=======
-ul#completed-tasks label {
-<<<<<<< HEAD
-  text-decoration: line-through
->>>>>>> 4898536 (refactor: update identification according to 1.1 requirement)
-=======
-  text-decoration: line-through;
->>>>>>> b8895f1 (refactor: add semocolons after all properties according to 3.7 requirement)
   color: #888;
 }
-
-/* Edit Task */
-<<<<<<< HEAD
-<<<<<<< HEAD
 .main__list-item .main__task_text {
   display: none;
 }
-
 .main__edit_mode .main__task_text {
   display: inline-block;
   width: 224px;
 }
-
 .main__edit_mode .main__task_label {
   display: none;
 }
-=======
-ul li input[type=text] {
-=======
-.main__list-item .main__task_text {
->>>>>>> 8a8f0e5 (refactor: add meaningfil naming of identifiers and classes accoridng to 3.2 requitement)
-  display: none;
-}
-
-.main__edit_mode .main__task_text {
-  display: inline-block;
-  width: 224px;
-}
-
-<<<<<<< HEAD
-ul li.editMode label {
-<<<<<<< HEAD
-  display:none;
-}
->>>>>>> 4898536 (refactor: update identification according to 1.1 requirement)
-=======
-  display: none;
-}
->>>>>>> 3f5ac29 (refactor: add space after property name in CSS according to 3.6 requirement)
-=======
-.main__edit_mode .main__task_label {
-  display: none;
-}
->>>>>>> 8a8f0e5 (refactor: add meaningfil naming of identifiers and classes accoridng to 3.2 requitement)
