@@ -2,9 +2,9 @@ name: NodeJS with Gulp
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "clean-code-s1e1" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "clean-code-s1e1" ]
 
 jobs:
   build:
